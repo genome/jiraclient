@@ -16,8 +16,8 @@ python-xmlrpclib (xmlrpclib) # part of standard python
 p. After installing the dependencies, you will need git installed in order to clone the repository:
 
 <pre class="terminal">
-    git clone git://github.com/genome/jiraclient.git
-    export PATH=~/jiraclient/src:$PATH
+git clone git://github.com/genome/jiraclient.git
+export PATH=~/jiraclient/src:$PATH
 </pre>
 
 {% include install/help.html %}
