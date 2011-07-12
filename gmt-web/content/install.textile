@@ -1,5 +1,25 @@
 h2. Installation
 ==<hr />==
 
-p. I have produced .deb and .rpm files of jiraclient, but there are some dependencies that are not generally available in those formats.  This leaves re-packaging into those formats as an exercise for the reader.  Otherwise, you can just download the code and run it from a home directory.
+p. I have produced .deb and .rpm files of jiraclient, but there are some dependencies that are not generally available in those formats.  This leaves re-packaging into those formats as an exercise for the reader.  Otherwise, you can just download the code and run it from a home directory.  
 
+p. {{ page.module_details.name }} depends on the following packages:
+
+<pre class="terminal">
+python
+python-fpconst
+python-soappy (SOAPpy)
+python-yaml
+python-xmlrpclib (xmlrpclib) # part of standard python
+</pre>
+
+p. After installing the dependencies, you will need git installed in order to clone the repository:
+
+<pre class="terminal">
+    git clone git://github.com/genome/jiraclient.git
+    export PATH=~/jiraclient/src:$PATH
+<pre>
+
+{% include install/help %}
+
+p. For more details, see the ["jiraclient README":https://github.com/genome/jiraclient/blob/master/README].
