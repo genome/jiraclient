@@ -18,8 +18,8 @@ p. After installing the dependencies, you will need git installed in order to cl
 <pre class="terminal">
     git clone git://github.com/genome/jiraclient.git
     export PATH=~/jiraclient/src:$PATH
-<pre>
+</pre>
 
-{% include install/help %}
+{% include install/help.html %}
 
 p. For more details, see the ["jiraclient README":https://github.com/genome/jiraclient/blob/master/README].
